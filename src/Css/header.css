@@ -1,0 +1,119 @@
+
+.header{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;  
+    background: url("/src/FoodImages/front-page-images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    height: 720px;
+    background-attachment: scroll;
+    box-sizing: border-box;
+}
+.logo-navbar-div{
+   display: flex;
+   flex-direction: row;
+  
+   
+}
+.logo-image{
+    /* border: 2px solid cyan; */
+    margin-left: 20px;
+    width: 180px;
+}
+.logo-div{
+    /* border: 2px solid red; */
+    display: flex;
+}
+.navbar-div{
+    /* border: 2px solid green; */
+    display: flex;
+}
+.navbar{
+    /* border: 2px solid dodgerblue; */
+    display: flex;
+    color: white;
+    flex-direction: row;
+    font-size: 2.3rem;
+    margin: 10px 10px;
+    padding: 40px 10px;
+   
+}
+.navbar li{
+    list-style: none;
+  
+}
+.navbar li a{
+    color: white;
+    padding: 34px 23px;
+    text-decoration: none;
+   
+}
+.navbar li a:hover,.navbar li a.active  {
+    text-decoration: underline;
+    /* color: rgb(67, 146, 120); */
+    color: #f4bc7c;
+}
+
+.div-1{
+    border: 4px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 612px;
+    margin: 20px 58px;
+    padding: 14px;
+}
+.heading-1{
+    margin: 0px 20px;
+    font-size: 4.3rem;
+    border-radius: 20px;
+}
+.div-1 p{
+    margin-top: 10px;
+    font-size: 2.3rem;
+}
+.div-2 h3{
+    display: flex;
+    width: 400px;
+    /* border: 4px solid white; */
+    border-radius: 20px;
+    font-size: 4.3rem;
+    padding: 14px;
+    margin: -20px 50px;
+}
+.lets-go-button{
+    border: 2px solid red;
+    width: 200px;
+    height: 80px;
+    padding-top: 0px;
+    margin-left: 330px;
+    background-color: darkcyan;
+    color: white;
+    cursor: pointer;
+    border: 4px solid black;
+    border-radius:   17px ;
+    font-size: 23px;
+}
+.button-lets-go{
+    border: 2px solid blue;
+    border-radius: 50px;
+}
+.text-button{
+    font-size: 2.3rem;
+}
+.animation-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.dropDown{
+    display: flex;
+    width: 70px;
+    margin: -25px auto;
+    justify-content: center;
+    border-radius: 50%;
+    background: #11b5b5;
+    border: 4px solid  black;
+}

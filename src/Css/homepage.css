@@ -1,0 +1,101 @@
+.recipe-div{
+    /* border: 2px solid brown; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: burlywood; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.receipe-div-heading{
+    font-size: 4.0rem;
+    color: white;
+    margin: 20px auto;
+}
+
+.Recipe-item-div{
+    background-color: #f4bc7c;
+    border-radius: 20px;
+    margin: 20px 150px 23px 150px;
+    border: 4px solid rgb(177, 41, 7);
+}
+.explore-more-div{
+    display: flex;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    flex-direction: column;
+    margin-top: 50px ;
+    /* border: 2px solid red; */
+}
+.expore-more-heading{
+    
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 4.0rem;
+    margin: 20px auto;
+}
+.explore-more-details{
+    /* border: 2px solid darkslateblue; */
+    display: flex;
+    flex-direction: row;
+}
+.virtualBook-image{
+    border: 4px solid black;
+    border-radius: 18px;
+    width: 400px;
+    object-fit: cover;
+    margin: 50px 150px;
+}
+.explore-more-para {
+    line-height: 42px;
+    /* display: flex; */
+    width: 44%;
+    border: 4px solid black;
+    /* border: 4px solid #461414; */
+    border-radius: 18px;
+    color: white;
+    font-size: 2.3rem;
+    margin: 153px -60px;
+    height: 10%;
+}
+.about-us{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.about-us-heading{
+    color: white;
+    font-size: 4.0rem;
+    margin: 20px auto;
+}
+.about-us-details{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid sandybrown; */
+}
+
+.founder-image{
+
+    border: 4px solid black;
+    border-radius: 18px;
+    width: 300px;
+    object-fit: cover;
+    margin: 50px 150px;
+}
+.about-us-para{
+    font-size: 2.0rem;
+    text-align: justify;
+    margin:  auto;
+    line-height: 42px;
+    
+
+}
+.about-us-tea-image{
+    border: 4px solid black;
+    border-radius: 18px;
+    width: 300px;
+    object-fit: cover;
+    margin: 50px 150px;
+}

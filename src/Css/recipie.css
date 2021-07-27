@@ -1,0 +1,88 @@
+.virtual-book-heading-div{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: 4px solid white;
+    border-radius: 18px;
+    font-size: 2.0rem;
+    width: 50%;
+    margin: 50px 20px;
+}
+.dropdown-recipie-js{
+    margin-top: 140px;
+}
+.virtual-book-div-para{
+    font-size: 2.5rem;
+    color: white;
+}
+.virtual-book-section{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    font-family: 'Dancing Script', cursive;
+}
+.virtual-book-section-heading{
+    margin: 20px auto;
+}
+.virtual-book-image{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 50px auto;
+    border-radius: 18px;  
+    width: 1200px;
+    height: 965px; 
+    background: url("/src/FoodImages/book.jpg") ;
+    background-repeat: no-repeat;
+    background-size: contain; 
+
+}
+
+.recipie-details-div1{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 100px 80px;
+    width: 42%;
+    height: 820px;
+    color: black;
+    
+}
+
+.recipie-title{
+    color: darkred;
+    /* border: 2px solid green; */
+    display: flex;
+    font-size: 4.0rem;
+    height: 7%;
+    margin: 20px auto;
+}
+
+.dosa-div{
+    display: flex;
+    /* border: 2px solid blue; */
+    margin: 20px auto;
+}
+.dosa-image{
+    border: 4px solid black;
+    border-radius: 10px;   /*  this is the css of dosa image */
+    width: 60%;
+    margin: 10px auto;
+}
+.recipie-description , p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    color: rgb(24, 15, 15);
+}
+
+.recipie-details-div2{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 100px -71px;
+    width: 42%;
+    height: 820px;
+    color: black;
+}

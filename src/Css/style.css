@@ -1,0 +1,13 @@
+body {
+    margin: 0px 0px 0px 0px;
+    color: white;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #293440, #001225);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #081524, #001225); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+  
+}
+html{
+    font-size: 62%;
+}
