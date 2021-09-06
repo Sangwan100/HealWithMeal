@@ -6,8 +6,8 @@ import Recipies from  "./Routes/Recipies";
 function App() {
   return (
     <div>
-      {/* <Homepage/> */}
-      <Recipies/>
+      <Homepage/>
+      {/* <Recipies/> */}
     </div>
   );
 }
